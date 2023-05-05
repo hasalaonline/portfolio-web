@@ -7,31 +7,35 @@ body {
     background-color: black;
 }
 
-.nav h1 {
-    color: #BC3CD8;
-    display: inline-block;
-}
-
-.nav li {
-    font-size: 14px;
-    font-weight: 600;
-    display: inline-block;
-    padding: 10px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-}
+/* navigation bar */
 
 .nav {
+    display: flex;
+    justify-content: space-between;
     padding: 0 112px;
-}
-
-.nav ul {
+    align-items: center;
+  }
+  
+  .nav ul {
     list-style: none;
-    float: right;
-}
+    display: flex;
+  }
+  
+  .nav li {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav h1 {
+    color: #BC3CD8;
+  }
+  
 
 /* main description */
 
