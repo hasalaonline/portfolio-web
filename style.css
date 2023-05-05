@@ -67,9 +67,10 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
+    font-weight: bolder;
   }
   
   .overlay a:hover, .overlay a:focus {
@@ -155,6 +156,7 @@ i:hover {
 .my-skills {
     display: none;
     text-align: center;
+    padding: 0 8px;
 }
 
 .my-skills h1 {
