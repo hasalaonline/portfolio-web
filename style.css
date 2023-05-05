@@ -1,0 +1,125 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.nav h1 {
+    color: #BC3CD8;
+    display: inline-block;
+}
+
+.nav li {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    padding: 0 112px;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+}
+
+/* main description */
+
+.main {
+    color: white;
+    text-align: center;
+    padding: 10% 12% 4% 12%;
+}
+
+.main p {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.main span {
+    font-weight: 1000;
+}
+
+.main h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+i:hover {
+    opacity: 0.5;
+}
+
+.fa-angles-down {
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* skills */
+
+.my-skills {
+    display: none;
+    text-align: center;
+}
+
+.my-skills h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .skill p {
+    text-align: left;
+    margin: 0;
+    width: 200px;
+    font-size: 30px;
+  }
+  
+  .skill progress {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+  }
+
+/* projects */
+
+.projects {
+    display: none;
+    text-align: center;
+    color: white;
+}
+
+.projects h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
